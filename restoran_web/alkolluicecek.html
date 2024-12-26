@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkollü İçecekler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Trajan, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFCF9; 
+        }
+        header {
+            background-color: #8C2F39; 
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .menu-item:hover img {
+            transform: scale(1.05);
+        }
+        .menu-item h5 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #8C2F39;
+        }
+        .menu-item p {
+            padding: 0 10px;
+            font-size: 14px;
+            color: #050404;
+        }
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8C2F39;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-back:hover {
+            background-color: #B23A48;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alkollü İçecekler</h1>
+    </header>
+    <main>
+       
+        <div class="menu-item">
+            <h5>Şarap</h5>
+            <p>Kırmızı, beyaz ve roze seçenekleriyle özel şaraplarımızı deneyin.</p>
+        </div>
+
+        
+        <div class="menu-item">
+            <h5>Meyveli Sangria</h5>
+            <p>Hafif beyaz şarap, taze meyve dilimleri ve az miktar soda ile kahvaltıya uygun bir versiyon.</p>
+        </div>
+
+   
+        <div class="menu-item">
+            <h5>Kokteyller</h5>
+            <p>Taze malzemelerle hazırlanmış alkollü kokteyl çeşitleri.</p>
+        </div> 
+
+        
+        <div class="menu-item">
+            <h5>Portakallı Aperol Spritz</h5>
+            <p>Aperol, şampanya ve soda, yanında portakal dilimiyle.</p>
+        </div>
+
+        
+        <div class="menu-item">
+            <h5>Prosecco Punch</h5>
+            <p>Prosecco, taze meyve suyu ve nar taneleriyle hazırlanmış hafif bir içecek.</p>
+        </div>
+
+      
+        <div class="menu-item">
+            <h5>Şeftalili Rosé</h5>
+            <p>Hafif şeftali püresi, Rosé şarabı ve bir tutam limon kabuğu.</p>
+        </div>
+
+       
+        <div class="menu-item">
+            <h5>Portakallı Rakı Şerbeti</h5>
+            <p>Rakı, taze sıkılmış portakal suyu, az miktarda bal ve nane yaprağı ile karıştırılarak ferahlatıcı bir içecek hazırlanabilir.</p>
+        </div>
+
+        
+        <div class="menu-item">
+            <h5>Greyfurtlu Vodka Spritz</h5>
+            <p>Votka, taze greyfurt suyu ve soda.</p>
+        </div>
+
+       
+        <a href="menu.html" class="btn-back">Menüye Geri Dön</a>
+    </main>
+</body>
+</html>
